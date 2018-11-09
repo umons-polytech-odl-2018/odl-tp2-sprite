@@ -1,6 +1,8 @@
 package exercise1;
 
-public abstract class Employee {  // il faut creer la classe abstraite
+import exercise2.Payable;
+
+public abstract class Employee implements Payable {  // il faut creer la classe abstraite
 
 	private String name;
 	protected int sales = 0;
